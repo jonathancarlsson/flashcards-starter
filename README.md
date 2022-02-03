@@ -6,11 +6,11 @@ A quiz-app made for a challenge in Codecademy's full stack engineer program.
 
 Run `npm start` in the project root and the app will be available on port 3000.
 
-[Node 16.13.1](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
-[uuidv4](https://www.npmjs.com/package/uuidv4)
-[React-Router](https://www.npmjs.com/package/react-router)
-[React](https://reactjs.org/) 
-[Redux, Redux Toolkit, React-Redux](https://redux.js.org/)
+[Node 16.13.1](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) <br/>
+[uuidv4](https://www.npmjs.com/package/uuidv4) <br/>
+[React-Router](https://www.npmjs.com/package/react-router) <br/>
+[React](https://reactjs.org/) <br/>
+[Redux, Redux Toolkit, React-Redux](https://redux.js.org/) <br/>
 
 
 # State
