@@ -1,9 +1,12 @@
 import NewTopicForm from "../../components/NewTopicForm";
+import { useSelector } from "react-redux";
+import { selectTopics } from "./topicsSlice";
 import { Link } from "react-router-dom";
 import ROUTES from "../../app/routes";
 
+
 export default function Topics() {
-  const topics = {}; // replace this with a call to your selector to select all the topics in state
+  const topics = useSelector(selectTopics);; // replace this with a call to your selector to select all the topics in state
 
   return (
     <section className="center">
@@ -32,3 +35,11 @@ export default function Topics() {
     </section>
   );
 }
+
+/* 
+
+In src/features/topics/Topics.js,
+import the selector defined in your slice and use it to access all the topics in state,
+and replace the empty object currently assigned to topics with the topics in state.
+
+*/
